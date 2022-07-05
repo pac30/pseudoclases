@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: blueviolet;
+    font-size: 30px;
+}
+a:active {
+  background-color: yellow;
+}
+input:checked {
+    height: 50px;
+    width: 50px;
+  }
+input:default {
+    box-shadow: 0 0 1px 1px red;
+  }
+:dir(rtl) {
+    background-color: red;
+  }
+  :dir(ltr) {
+    background-color: yellow;
+  }
+  
+  :dir(rtl) {
+    background-color: powderblue;
+  }
+  input[type=text]:enabled {
+    background: #ffff00;
+  }
+  
+  input[type=text]:disabled {
+    background: #dddddd;
+  }
+  p:empty {
+    width: 100px;
+    height: 20px;
+    background: blue;
+  }
+  @page :first {
+    margin-left: 50%;
+    margin-top: 50%;
+  }
+  
+  .button{
+    page-break-after: always;
+  }
+
+  p:first-child {
+    color: lime;
+    background-color: blue;
+    padding: 5px;
+  }
+  p.ojo:first-of-type {
+    background: red;
+  }
+ /* Safari syntax */
+:-webkit-full-screen {
+    background-color: yellow;
+  }
+  
+  /* IE11 syntax */
+  :-ms-fullscreen {
+    background-color: yellow;
+  }
+  
+  /* Standard syntax */
+  :fullscreen {
+    background-color: yellow;
+  }
+  
+  /* Style the button */
+  button {
+    padding: 20px;
+    font-size: 20px;
+  }
+  input:focus {
+    background-color: yellow;
+  }
+  a:hover {
+    background-color: yellowgreen;
+  }
+  input:indeterminate {
+    box-shadow: 0 0 1px 1px red;
+  }
+  input:in-range {
+    border: 2px solid yellow;
+  }
+  input.rojo:invalid {
+    border: 2px solid rgb(204, 0, 255);
+  }
+  p:lang(it) { 
+    background: darkgreen;
+  }
+  p.iu:last-child {
+    background: turquoise;
+  }
+  p.ah:last-of-type {
+    background: fuchsia;
+  }
+  p.ba:first-child {
+    background-color: darkred;
+  }
+  a:link {
+    background-color: violet;
+  }
+  p {
+    color: #000000;
+  }
+  
+  :not(p) {
+    color: #ff0000;
+  }
+  html {
+    font-family: sans-serif;
+  }
+  
+  span,
+  div em {
+    padding: 5px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+  
+  .first span:nth-child(2n+1),
+  .second span:nth-child(2n+1),
+  .third span:nth-of-type(2n+1) {
+    background-color: lime;
+  }
+  table {
+    border: 1px solid blue;
+  }
+  
+  /* Selecciona los últimos tres elementos */
+  tr:nth-last-child(-n+3) {
+    background-color: pink;
+  }
+  
+  /* Toma todos los elementos a partir del penúltimo elemento */
+  tr:nth-last-child(n+2) {
+    color: blue;
+  }
+  
+  /* Seleccione solo el penúltimo elemento */
+  tr:nth-last-child(2) {
+    font-weight: 600;
+  }
+  span:nth-last-of-type(2) {
+    background-color: lime;
+  }
+  /* Párrafos impares */
+p.par:nth-of-type(2n+1) {
+    color: red;
+  }
+  
+  /* Párrafos pares */
+  p.pares:nth-of-type(2n) {
+    color: blue;
+  }
+  
+  /* Primer párrafo */
+  p.impares:nth-of-type(1) {
+    font-weight: bold;
+  }
+    
+  p.only:only-child {
+    background: red;
+  }
+  p.lua:only-of-type {
+    background: green;
+  }
+  input:optional {
+  background-color: yellow;
+}
+input:out-of-range {
+    border: 2px solid red;
+  }
+  input:read-only {
+    background-color: yellow;
+  }
+  input:read-write {
+    background-color: blueviolet;
+  }
+  input:required {
+    background-color: yellowgreen;
+  }
+  a:link {
+    background-color: chartreuse;
+  }
+  p.root:root {
+    background: #ff0000;
+  }
+  :target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+  }
+  input:valid {
+    background-color: yellow;
+  }
+  a:visited {
+    color: pink;
+  }
